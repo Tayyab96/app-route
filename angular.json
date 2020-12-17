@@ -25,7 +25,12 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*.js",
+                "input": "node_modules",
+                "output": "webcomponents"
+              }
             ],
             "styles": [
               "src/styles.css"
@@ -124,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "route-app"
+  "defaultProject": "route-app",
+  "cli": {
+    "analytics": false
+  }
 }

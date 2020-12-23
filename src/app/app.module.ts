@@ -27,7 +27,6 @@ import { AuthModule } from './auth/auth.module';
     ComposeMessageComponent,
     PageNotFoundComponent
   ],
-  schemas:[CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {

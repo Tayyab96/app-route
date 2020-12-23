@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./crisis-center.component.css']
 })
 export class CrisisCenterComponent {
-
+ myimage:string ="assets/Islam_branches_and_schools.png";
 }

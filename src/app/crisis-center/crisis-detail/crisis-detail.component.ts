@@ -22,12 +22,11 @@ export class CrisisDetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.data
-      .subscribe(( data:any)  => {crisis : Crisis });  {
-        this.crisis.name;
-        this.crisis.id;
-      }
+      .subscribe((data: any) => {
+        this.editName = data.crisis.name;
+        this.crisis = data.crisis;
+      });
   }
-
   cancel() {
     this.gotoCrises();
   }

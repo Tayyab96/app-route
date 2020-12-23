@@ -1,8 +1,9 @@
 import { Crisis } from './crisis';
 
 export const CRISES: Crisis[] = [
-  { id: 1, name: 'Dragon Burning Cities' },
-  { id: 2, name: 'Sky Rains Great White Sharks' },
-  { id: 3, name: 'Giant Asteroid Heading For Earth' },
-  { id: 4, name: 'Procrastinators Meeting Delayed Again' },
+  { id: 1, name: 'Sunni' },
+  { id: 2, name: 'Shia' },
+  { id: 3, name: 'Ahmadi' },
+  { id: 4, name: 'Quranist' },
+  { id: 4, name: 'Wahhabi' },
 ];

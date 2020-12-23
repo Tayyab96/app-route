@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { CrisisCenterHomeComponent } from './crisis-center-home/crisis-center-home.component';
 import { CrisisListComponent } from './crisis-list/crisis-list.component';
@@ -16,7 +15,7 @@ import { CrisisCenterRoutingModule } from './crisis-center-routing.module';
     FormsModule,
     CrisisCenterRoutingModule
   ],
-  schemas:[CUSTOM_ELEMENTS_SCHEMA],
+  
   declarations: [
     CrisisCenterComponent,
     CrisisListComponent,

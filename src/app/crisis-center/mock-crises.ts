@@ -5,5 +5,5 @@ export const CRISES: Crisis[] = [
   { id: 2, name: 'Shia' },
   { id: 3, name: 'Ahmadi' },
   { id: 4, name: 'Quranist' },
-  { id: 4, name: 'Wahhabi' },
+  { id: 5, name: 'Wahhabi' },
 ];

@@ -28,7 +28,6 @@
     "@webcomponents/webcomponentsjs": "^2.5.0",
     "angular-in-memory-web-api": "^0.11.0",
     "core-js": "^3.8.1",
-    "espress": "0.0.0",
     "express": "^4.17.1",
     "jasmine-marbles": "^0.6.0",
     "path": "^0.12.7",

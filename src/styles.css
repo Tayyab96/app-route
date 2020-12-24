@@ -1,13 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 h1 {
-    color: #369;
+    color: #1d4c1c;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
   }
   h2, h3 {
-    color: #444;
+    color: #1d4c1c;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    font-size: 31px;
   }
   body {
     margin: 2em;
@@ -38,23 +39,25 @@ h1 {
   
   /* Navigation link styles */
   nav a {
-    padding: 5px 10px;
+    padding: 10px 10px;
     text-decoration: none;
     margin-right: 10px;
     margin-top: 10px;
     display: inline-block;
-    background-color: #eee;
-    border-radius: 4px;
+    background-color:black;
+    border-radius: 8px;
+    text-align: center;
+    width: 6em;
   }
   nav a:visited, a:link {
-    color: #607D8B;
+    color: #f3f8fa;
   }
   nav a:hover {
-    color: #039be5;
-    background-color: #CFD8DC;
+    color:   #38f950;
+    background-color: #336532;
   }
   nav a.active {
-    color: #039be5;
+    color: #38f950;
   }
   
   /* everywhere else */

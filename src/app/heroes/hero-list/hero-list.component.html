@@ -6,7 +6,10 @@
       <span class="badge">{{ hero.id }}</span>{{ hero.name }}
     </a>
   </li>
+  <label>Add an Hero: <input #newhero></label>
+  <button (click)="addNewhero(newhero.value)">Add to Heroes List</button>
 </ul>
+
 
 <button routerLink="/sidekicks">Go to sidekicks</button>
 

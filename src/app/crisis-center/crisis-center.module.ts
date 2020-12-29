@@ -9,6 +9,7 @@ import { CrisisDetailComponent } from './crisis-detail/crisis-detail.component';
 
 import { CrisisCenterRoutingModule } from './crisis-center-routing.module';
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -20,7 +21,7 @@ import { CrisisCenterRoutingModule } from './crisis-center-routing.module';
     CrisisCenterComponent,
     CrisisListComponent,
     CrisisCenterHomeComponent,
-    CrisisDetailComponent
+    CrisisDetailComponent 
   ]
 })
 export class CrisisCenterModule {}

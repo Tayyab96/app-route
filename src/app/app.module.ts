@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeroesModule } from './heroes/heroes.module';
 import { AuthModule } from './auth/auth.module';
 
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -25,7 +26,8 @@ import { AuthModule } from './auth/auth.module';
   declarations: [
     AppComponent,
     ComposeMessageComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    
   ],
   bootstrap: [ AppComponent ]
 })

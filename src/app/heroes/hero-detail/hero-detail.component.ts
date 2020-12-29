@@ -1,5 +1,5 @@
 import { switchMap } from 'rxjs/operators';
-import { Component, OnInit } from '@angular/core';
+import { Component,  Input } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { Observable } from 'rxjs';
 
@@ -11,7 +11,10 @@ import { Hero } from '../hero';
   templateUrl: './hero-detail.component.html',
   styleUrls: ['./hero-detail.component.css']
 })
-export class HeroDetailComponent implements OnInit {
+export class HeroDetailComponent {
+
+  @Input() hero:any;
+
   hero$!: Observable<Hero|any>;
 
   constructor(

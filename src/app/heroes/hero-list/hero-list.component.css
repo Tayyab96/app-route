@@ -16,8 +16,8 @@
   }
   
   .heroes li:hover {
-    color: #607D8B;
-    background-color: #DDD;
+    color: whitesmoke;
+    background-color:  #336532;
     left: .1em;
   }
   
@@ -29,7 +29,7 @@
   }
   
   .heroes a:hover {
-    color:#607D8B;
+    color: #38f950;
   }
   
   .heroes .badge {
@@ -71,7 +71,7 @@
   }
   
   .heroes li.selected {
-    background-color: #CFD8DC;
+    background-color: #1f6150;
     color: white;
   }
   .heroes li.selected:hover {

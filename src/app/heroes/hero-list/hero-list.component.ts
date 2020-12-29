@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { HeroService } from '../hero.service';
@@ -28,5 +28,10 @@ export class HeroListComponent implements OnInit {
         return this.service.getHeroes();
       })
     );
+  }
+  @Output() newItemEvent = new EventEmitter<string>();
+
+  addNewhero(value: string) {
+    this.newItemEvent.emit(value);
   }
 }
